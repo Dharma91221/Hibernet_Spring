@@ -1,0 +1,20 @@
+package One_Many_Anote;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Department dept=new Department();
+		dept.setDname("Electronics");
+		
+		Employee e=new Employee();
+		e.setEname("dharma");
+		e.setEmail("dha@g.com");
+		
+		Employee e1=new Employee();
+		e1.setEname("hasan");
+		e1.setEmail("hsn@g.com");
+		
+	}
+
+}

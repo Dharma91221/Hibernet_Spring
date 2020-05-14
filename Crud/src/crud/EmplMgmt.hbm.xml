@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 9, 2020 1:56:39 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="crud.EmplMgmt" table="EMPLMGMT">
+        <id name="Id" type="int">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="age" type="int">
+            <column name="AGE" />
+        </property>
+        <property name="salary" type="int">
+            <column name="SALARY" />
+        </property>
+        <property name="desig" type="java.lang.String">
+            <column name="DESIG" />
+        </property>
+    </class>
+</hibernate-mapping>

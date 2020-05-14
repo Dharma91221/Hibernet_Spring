@@ -1,0 +1,52 @@
+package One_Many_Anote;
+
+import java.util.Set;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+
+@Entity
+@Table(name="OM_Dept")
+public class Department {
+	
+	private int depid;
+	private String dname;
+	private Set<Employee> employee;
+	
+	@Id
+	@Column(name="DEPID")
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	public int getDepid() {
+		return depid;
+	}
+	public void setDepid(int depid) {
+		this.depid = depid;
+	}
+	
+	@Column(name="DNAME")
+	public String getDname() {
+		return dname;
+	}
+	public void setDname(String dname) {
+		this.dname = dname;
+	}
+	
+	@OneToMany(cascade=CascadeType.ALL)
+	@JoinColumn(name="DEPID")
+	public Set<Employee> getEmployee() {
+		return employee;
+	}
+	public void setEmployee(Set<Employee> employee) {
+		this.employee = employee;
+	}
+	
+	
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 9, 2020 3:29:56 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="many_many_xml_bi.School" table="SCHOOL">
+        <id name="schId" type="java.lang.String">
+            <column name="SCHID" />
+            <generator class="increment" />
+        </id>
+        <property name="schName" type="java.lang.String">
+            <column name="SCHNAME" />
+        </property>
+        <list name="teacher" inverse="true" table="TEACHER" lazy="true">
+            <key>
+                <column name="SCHID" />
+            </key>
+            <list-index></list-index>
+            <one-to-many class="many_many_xml_bi.Teacher" />
+        </list>
+    </class>
+</hibernate-mapping>

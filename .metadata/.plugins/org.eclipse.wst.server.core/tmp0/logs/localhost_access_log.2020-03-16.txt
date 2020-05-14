@@ -1,0 +1,5 @@
+127.0.0.1 - - [16/Mar/2020:16:31:51 +0530] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [16/Mar/2020:16:32:02 +0530] "GET /25springmvc-loginapp/jsp/enter.jsp HTTP/1.1" 500 4267
+0:0:0:0:0:0:0:1 - - [16/Mar/2020:16:35:30 +0530] "GET /25springmvc-loginapp/login HTTP/1.1" 200 437
+0:0:0:0:0:0:0:1 - - [16/Mar/2020:16:35:32 +0530] "GET /favicon.ico HTTP/1.1" 404 1081
+0:0:0:0:0:0:0:1 - - [16/Mar/2020:16:36:01 +0530] "POST /25springmvc-loginapp/check HTTP/1.1" 200 108

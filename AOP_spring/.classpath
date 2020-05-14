@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/HIBernate/Jars/Spring/applicationcontext/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/HIBernate/Jars/Spring/applicationcontext/spring-beans-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/HIBernate/Jars/Spring/applicationcontext/spring-context-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/HIBernate/Jars/Spring/applicationcontext/spring-core-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/HIBernate/Jars/Spring/applicationcontext/spring-expression-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/HIBernate/Jars/Spring/beanwiring and aop jar/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/HIBernate/Jars/Spring/beanwiring and aop jar/aspectjrt-1.5.3.jar"/>
+	<classpathentry kind="lib" path="D:/HIBernate/Jars/Spring/beanwiring and aop jar/aspectjweaver-1.6.11.jar"/>
+	<classpathentry kind="lib" path="D:/HIBernate/Jars/Spring/beanwiring and aop jar/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/HIBernate/Jars/Spring/beanwiring and aop jar/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="D:/HIBernate/Jars/Spring/beanwiring and aop jar/spring-aop-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/HIBernate/Jars/Spring/beanwiring and aop jar/spring-beans-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/HIBernate/Jars/Spring/beanwiring and aop jar/spring-context-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/HIBernate/Jars/Spring/beanwiring and aop jar/spring-core-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/HIBernate/Jars/Spring/beanwiring and aop jar/spring-expression-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,28 @@
+package many_many_xml_bi;
+
+import java.util.List;
+
+public class Teacher {
+	private int tId;
+	private String Tsub;
+	private List<School> sch;
+	public int gettId() {
+		return tId;
+	}
+	public void settId(int tId) {
+		this.tId = tId;
+	}
+	public String getTsub() {
+		return Tsub;
+	}
+	public void setTsub(String tsub) {
+		Tsub = tsub;
+	}
+	public List<School> getSch() {
+		return sch;
+	}
+	public void setSch(List<School> sch) {
+		this.sch = sch;
+	}
+	
+}

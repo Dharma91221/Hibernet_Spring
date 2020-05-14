@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 10, 2020 4:47:13 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="read_display.Employee" table="EMPLOYEE1">
+        <id name="eid" type="int">
+            <column name="EID" />
+            <generator class="increment" />
+        </id>
+        <property name="eName" type="java.lang.String" access="field">
+            <column name="ENAME" />
+        </property>
+        <property name="eSal" type="int" access="field">
+            <column name="ESAL" />
+        </property>
+        <property name="eDesig" type="java.lang.String" access="field">
+            <column name="EDESIG" />
+        </property>
+        <many-to-one name="dept" class="read_display.Department" cascade="all">
+            <column name="DEPT" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>
